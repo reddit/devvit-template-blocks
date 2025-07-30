@@ -8,11 +8,11 @@ Next up is uploading and developing your app using playtest.
 
 In the project directory, you can run:
 
-### `devvit upload`
+### `npm run deploy`
 
 Upload the app to the App Directory. Uploaded apps are only visible to you (the app owner) and can only be installed to a small test subreddit with less than 200 subscribers.
 
-### `devvit playtest <subreddit-name>`
+### `npm run dev`
 
 Installs your app to your test subreddit and starts a playtest session where a new version is installed whenever you save changes to your app code, and logs are continuously streamed.
 
